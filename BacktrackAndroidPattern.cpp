@@ -1,3 +1,23 @@
+/*Android mobile unlock pattern is a grid of 3 x 3 cells, where drawing a specific pattern connecting a specific sequence of cells in order will unlock the android mobile.
+Given a number n, your task is to find the number of android unlock patterns connecting exactly n cells.
+Rules of a valid pattern:
+
+1. Each pattern must connect exactly n cells.
+2. All the cells must be distinct.
+3. If the line connecting two consecutive cells in the pattern passes through any other cells, the other cells must have previously selected in the pattern. No jumps through the non-selected cell is allowed.
+4. The order of cells used matters.
+
+Sample Input 1
+1 
+Sample Output 1
+9
+
+Sample Input 2
+2
+Sample Output 2
+56
+*/
+
 #include <bits/stdc++.h>
 #define pb push_back
 #define mp make_pair
